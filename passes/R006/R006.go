@@ -8,10 +8,10 @@ import (
 	"go/types"
 	"strings"
 
-	"github.com/bflad/tfproviderlint/helper/astutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/resource/retryfuncinfo"
+	"github.com/Codelax/tfproviderlint/helper/astutils"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/resource/retryfuncinfo"
 	"golang.org/x/tools/go/analysis"
 )
 

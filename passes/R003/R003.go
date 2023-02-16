@@ -5,9 +5,9 @@ package R003
 import (
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/resourceinfo"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/schema/resourceinfo"
 )
 
 const Doc = `check for Resource having Exists functions

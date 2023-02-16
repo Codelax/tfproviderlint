@@ -1,4 +1,4 @@
-module github.com/bflad/tfproviderlint
+module github.com/Codelax/tfproviderlint
 
 go 1.16
 

@@ -3,8 +3,8 @@ package analysisutils
 import (
 	"fmt"
 
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/schemainfo"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/schema/schemainfo"
 	"golang.org/x/tools/go/analysis"
 )
 

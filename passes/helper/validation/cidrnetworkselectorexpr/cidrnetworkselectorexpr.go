@@ -1,8 +1,8 @@
 package cidrnetworkselectorexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation"
+	"github.com/Codelax/tfproviderlint/helper/analysisutils"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/validation"
 )
 
 var Analyzer = analysisutils.SelectorExprAnalyzer(

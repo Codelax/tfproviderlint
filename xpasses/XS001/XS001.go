@@ -5,9 +5,9 @@ package XS001
 import (
 	"go/ast"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/schemamapcompositelit"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/schema/schemamapcompositelit"
 	"golang.org/x/tools/go/analysis"
 )
 

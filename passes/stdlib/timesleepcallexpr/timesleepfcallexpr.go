@@ -1,7 +1,7 @@
 package timesleepcallexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
+	"github.com/Codelax/tfproviderlint/helper/analysisutils"
 )
 
 var Analyzer = analysisutils.StdlibFunctionCallExprAnalyzer(

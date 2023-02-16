@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/helper/astutils"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/validation/stringdoesnotmatchcallexpr"
+	"github.com/Codelax/tfproviderlint/helper/astutils"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/validation/stringdoesnotmatchcallexpr"
 )
 
 const Doc = `check for validation.StringDoesNotMatch() calls with empty message argument

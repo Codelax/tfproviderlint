@@ -5,9 +5,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/schemavalidatefuncinfo"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/schema/schemavalidatefuncinfo"
 	"golang.org/x/tools/go/analysis"
 )
 

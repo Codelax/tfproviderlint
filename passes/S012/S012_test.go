@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/tools/go/analysis/analysistest"
 
-	"github.com/bflad/tfproviderlint/passes/S012"
+	"github.com/Codelax/tfproviderlint/passes/S012"
 )
 
 func TestS012(t *testing.T) {

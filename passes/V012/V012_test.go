@@ -3,7 +3,7 @@ package V012_test
 import (
 	"testing"
 
-	"github.com/bflad/tfproviderlint/passes/V012"
+	"github.com/Codelax/tfproviderlint/passes/V012"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatasetidcallexpr"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/schema/resourcedatasetidcallexpr"
 )
 
 const Doc = `check for (*schema.ResourceData).SetId() usage with unstable resource.PrefixedUniqueId() value

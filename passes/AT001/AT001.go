@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/helper/resource/testcaseinfo"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/helper/resource/testcaseinfo"
 	"golang.org/x/tools/go/analysis"
 )
 

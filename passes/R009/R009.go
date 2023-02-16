@@ -7,7 +7,7 @@ import (
 	"github.com/bflad/gopaniccheck/passes/logpanicfcallexpr"
 	"github.com/bflad/gopaniccheck/passes/logpaniclncallexpr"
 	"github.com/bflad/gopaniccheck/passes/paniccallexpr"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
 	"golang.org/x/tools/go/analysis"
 )
 

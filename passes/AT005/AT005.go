@@ -6,9 +6,9 @@ import (
 	"go/ast"
 	"strings"
 
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/resource"
-	"github.com/bflad/tfproviderlint/passes/commentignore"
-	"github.com/bflad/tfproviderlint/passes/testfuncdecl"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/resource"
+	"github.com/Codelax/tfproviderlint/passes/commentignore"
+	"github.com/Codelax/tfproviderlint/passes/testfuncdecl"
 	"golang.org/x/tools/go/analysis"
 )
 

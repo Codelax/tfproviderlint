@@ -1,8 +1,8 @@
 package resourcedatahaschangecallexpr
 
 import (
-	"github.com/bflad/tfproviderlint/helper/analysisutils"
-	"github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema"
+	"github.com/Codelax/tfproviderlint/helper/analysisutils"
+	"github.com/Codelax/tfproviderlint/helper/terraformtype/helper/schema"
 )
 
 var Analyzer = analysisutils.ReceiverMethodCallExprAnalyzer(

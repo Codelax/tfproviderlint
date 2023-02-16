@@ -1,6 +1,6 @@
 package diag
 
-import "github.com/bflad/tfproviderlint/helper/terraformtype"
+import "github.com/Codelax/tfproviderlint/helper/terraformtype"
 
 const (
 	PackageModule     = terraformtype.ModuleTerraformPluginSdk
